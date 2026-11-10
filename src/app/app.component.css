@@ -1,0 +1,20 @@
+/* src/app/app.component.css */
+/* Estilos del layout principal (header + contenedor de rutas). */
+
+.header-spa {
+  background: linear-gradient(135deg, #312e81 0%, #4f46e5 100%);
+  color: #ffffff;
+  padding: 22px 32px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+.header-spa h1 {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.main-body {
+  padding: 32px 20px;
+  min-height: calc(100vh - 90px);
+}

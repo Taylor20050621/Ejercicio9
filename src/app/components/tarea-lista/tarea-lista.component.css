@@ -1,0 +1,68 @@
+/* src/app/components/tarea-lista/tarea-lista.component.css */
+/* Estilos de la capa de presentación: tabla SPA, botones y mensajes. */
+
+.container {
+  max-width: 920px;
+  margin: 0 auto;
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 24px 32px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
+}
+
+h2 {
+  color: #1f2937;
+  font-size: 1.35rem;
+  margin-top: 0;
+  border-bottom: 3px solid #4f46e5;
+  padding-bottom: 12px;
+}
+
+.tabla-spa {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 16px;
+  font-size: 0.95rem;
+}
+
+.tabla-spa th {
+  background: #4f46e5;
+  color: #ffffff;
+  padding: 12px 10px;
+  text-align: left;
+}
+
+.tabla-spa th:first-child { border-radius: 8px 0 0 0; }
+.tabla-spa th:last-child { border-radius: 0 8px 0 0; }
+
+.tabla-spa td {
+  padding: 12px 10px;
+  border-bottom: 1px solid #e5e7eb;
+  color: #374151;
+}
+
+.tabla-spa tbody tr:hover {
+  background: #f3f4f6;
+}
+
+.btn-borrar {
+  background: #dc2626;
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  padding: 6px 14px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background 0.2s ease;
+}
+
+.btn-borrar:hover {
+  background: #b91c1c;
+}
+
+.cargando-text {
+  text-align: center;
+  color: #6b7280;
+  font-style: italic;
+  padding: 24px;
+}

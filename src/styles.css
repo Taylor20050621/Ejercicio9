@@ -1,0 +1,13 @@
+/* src/styles.css */
+/* Estilos globales de la SPA */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  background: #eef2f7;
+  color: #1f2937;
+}
